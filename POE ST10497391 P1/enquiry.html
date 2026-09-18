@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Submit a service enquiry to Nuru Creative Print & Design.">
+
+    <tiltle>Nuru Creative Print & Design | Enquiry</tiltle>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Website Header -->
+     <header>
+        <h1>Nuru Creative Print & Design</h1>
+
+        <!-- Main Nagivation -->
+         <nav aria-label="Primary navigation">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+
+         </nav>
+
+    </header>
+
+     <!-- Main Content -->
+     <main>
+
+        <section>
+            
+            <h2>Services Enquiry</h2>
+            <p>
+                Complete the form below and tell us about the services you require.
+            </p>
+
+            <!-- Enquiry Form-->
+             <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Tell us What You Need</legend>
+
+                    <!-- Full Name-->
+                     <p>
+
+                        <label for="name">Full Name:</label>
+                        
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                        >    
+                     </p>
+
+                     <!-- Email -->
+                      <p>
+
+                        <label for="Email">Email Address:</label>
+
+                        <input
+                           type="email"
+                           id="email"
+                           name="email"
+                           required
+                        >
+                       
+                     </p>
+
+                     <!-- Telephone -->
+                      <p>
+
+                        <label for="telephone">Telephone Number:</label>
+
+                        <input
+                            type="tel"
+                            id="telephone"
+                            name="telephone"
+                        >    
+                      </p>
+
+                      <!-- Service Selection -->
+                       <p>
+
+                        <label for="services">Services Required:</label>
+
+                        <select
+                            id="service"
+                            name="service"
+                            required
+                        >
+                        
+                            <option value="">
+                                Select a service
+                            </option>
+
+                            <option value="printing">
+                                Printing
+                            </option>
+
+                            <option value="branding">
+                                Branding
+                            </option>
+
+                            <option value="promotional materials">
+                                Promotional Materials
+                            </option>
+
+                            <option value="design support">
+                                Design Support
+                            </option>
+
+                        </select>
+
+                       </p>
+
+                       <!-- Project Details -->
+                        <p>
+                            <label for="details">
+                                Project Details:
+                            </label>
+
+                            <br>
+
+                            <textarea
+                                id="details"
+                                name="details"
+                                rows="8"
+                                cols="50"
+                                required
+                            ></textarea>
+
+                        </p>
+
+                        <!-- Preferred Contact Method -->
+
+                     <legend>
+                        Preferred Contact Method
+                     </legend>
+
+                     <p>
+
+                        <input
+                            type="radio"
+                            id="contact-email"
+                            name="contact-method"
+                            value="email"
+                            checked
+                        >
+                        
+                        <label for="contact-email">
+                            Email
+                        </label>
+                     </p>
+
+                     <p>
+
+                        <input
+                            type="radio"
+                            id="contact-phone"
+                            name="contact-method"
+                            value="phone"
+                        >
+                        
+                        <label for="contact-phone">
+                            Telephone
+                        </label>
+
+                     </p>
+
+                </fieldset>
+                
+                <!-- Submit -->
+                 <p>
+
+                    <button type="summit">
+                        Submit Enquiry
+                    </button>
+                 </p>
+
+                </fieldset>
+             </form>         
+        </section>
+    </main>
+
+    <!-- Footer -->
+     <footer>
+
+        <p>
+            &copy; 2026 Nuru Creative Print & Design.
+            All rights reserved.
+        </p>
+        
+     </footer>
+</body>
+</html>
